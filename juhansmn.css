@@ -1,0 +1,54 @@
+body{
+    background-color:rgb(105, 102, 105); /*rgb(10, 10, 10)*/
+	margin: auto;
+    margin-top: 2em;
+    width: 800px;
+
+}
+
+div.main-name{
+    color: rgb(0, 0, 0); /*color: rgba(255, 255, 255, 0.100) rgb(2, 63, 50)*/
+    font-family: "Fira Code";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+div.main-info, a{
+    color: rgb(43, 43, 43);
+    font-size: 15px;
+    font-family: "Inconsolata";
+    text-align: center;
+    display: block;
+
+}
+
+div.main-image{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    
+}
+
+div.main-description{ 
+    color: rgb(43, 43, 43); /*color: rgb(5, 70, 55) rgba(255, 255, 255, 0.200)*/
+    font-family: "Inconsolata";
+    font-size: 18px;
+    text-align-last: justify;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+hr{
+    height: 6px;
+    background: url(hr-11.png) repeat-x 0 0;
+    border: 0; /*rgb(5, 70, 55)*/
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
