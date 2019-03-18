@@ -1,35 +1,55 @@
 body{
     background-color:rgb(105, 102, 105); /*rgb(10, 10, 10)*/
-	margin: auto;
-    margin-top: 2em;
-    width: 800px;
+    margin: auto;
+    margin-left: 300px;
+    margin-top: 89px;
+    width: 70%;
 
 }
 
-.top-bar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the top-bar to fixed position */
-    top: 0; /* Position the top-bar at the top of the page */
-    width: 500px; /* Full width */
-    margin-left: auto;
-    margin-right: auto;
+ /* The sidebar menu */
+div.sidenav{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 280px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 80px;
   }
+
   
-  /* Links inside the top-bar */
-  .top-bar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+  /* The navigation menu links */
+div.sidenav a{
+    padding: 6px 8px 6px 35px;
     text-decoration: none;
+    font-family: "Fira Code";
+    font-weight: bold;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+div.sidenav title{
+    text-decoration: none;
+    font-family: "Fira Code";
+    font-weight: bold;
+    font-size: 45px;
+    color: #818181;
+    display: block;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+div.sidenav.nome{
+    font-size: 40px;
   }
   
-  /* Change background on mouse-over */
-  .top-bar a:hover {
-    background: #ddd;
-    color: black;
+  /* When you mouse over the navigation links, change their color */
+div.sidenav a:hover, div.sidenav h:hover{
+    color: #f1f1f1;
   }
 
 div.main-name{
@@ -37,37 +57,70 @@ div.main-name{
     font-family: "Fira Code";
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
-
 }
 
-div.main-info, a{
+div.main-info{
     color: rgb(43, 43, 43);
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Inconsolata";
-    text-align: center;
+    text-align: left;
     display: block;
-
 }
 
-div.main-image{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+div.main-info a{
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    font-family: "Inconsolata";
+    text-align: left;
     display: block;
-    
+}
+
+div.main-info h{
+    padding: 0px 0px 0px 35px;
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: bold;
+    display: block;
+}
+
+div.link a{
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: "Fira Code";
+    font-weight: bold;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+a{
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    font-family: "Inconsolata";
+    display: block;
+    margin-left: 0px;
+}
+
+p.lead{
+    padding: 26px 8px 26px 35px;
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    display: block;
+    margin-left: 0px;
+    margin-right: 15px;
 }
 
 div.main-description{ 
     color: rgb(43, 43, 43); /*color: rgb(5, 70, 55) rgba(255, 255, 255, 0.200)*/
     font-family: "Inconsolata";
     font-size: 18px;
-    text-align-last: justify;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
 
 }
+
 
 hr{
     height: 6px;
