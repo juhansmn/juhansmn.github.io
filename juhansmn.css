@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(105, 102, 105); /*rgb(10, 10, 10)*/
+    background-color:rgb(134, 134, 134); /*rgb(10, 10, 10) (105, 102, 105)*/
     margin: auto;
     margin-left: 300px;
     margin-top: 89px;
@@ -28,7 +28,7 @@ div.sidenav a{
     font-family: 'Fira Code';
     font-weight: bold;
     font-size: 25px;
-    color: #818181;
+    color: rgb(134, 134, 134);
     display: block;
   }
 
@@ -37,7 +37,7 @@ div.sidenav title{
     font-family: 'Fira Code';
     font-weight: bold;
     font-size: 45px;
-    color: #818181;
+    color: rgb(134, 134, 134);
     display: block;
     cursor: pointer;
     touch-action: manipulation;
@@ -48,7 +48,7 @@ div.sidenav.nome{
   }
   
   /* When you mouse over the navigation links, change their color */
-div.sidenav a:hover, div.sidenav h:hover{
+div.sidenav a:hover, div.sidenav title:hover{
     color: #f1f1f1;
   }
 
