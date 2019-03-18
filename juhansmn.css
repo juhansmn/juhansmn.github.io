@@ -25,7 +25,7 @@ div.sidenav{
 div.sidenav a{
     padding: 6px 8px 6px 35px;
     text-decoration: none;
-    font-family: "Fira Code";
+    font-family: 'Fira Code';
     font-weight: bold;
     font-size: 25px;
     color: #818181;
@@ -34,7 +34,7 @@ div.sidenav a{
 
 div.sidenav title{
     text-decoration: none;
-    font-family: "Fira Code";
+    font-family: 'Fira Code';
     font-weight: bold;
     font-size: 45px;
     color: #818181;
@@ -54,7 +54,7 @@ div.sidenav a:hover, div.sidenav h:hover{
 
 div.main-name{
     color: rgb(0, 0, 0); /*color: rgba(255, 255, 255, 0.100) rgb(2, 63, 50)*/
-    font-family: "Fira Code";
+    font-family: 'Fira Code';
     font-size: 30px;
     font-weight: bold;
 }
@@ -62,7 +62,7 @@ div.main-name{
 div.main-info{
     color: rgb(43, 43, 43);
     font-size: 20px;
-    font-family: "Inconsolata";
+    font-family: 'Inconsolata';
     text-align: left;
     display: block;
 }
@@ -70,7 +70,7 @@ div.main-info{
 div.main-info a{
     color: rgb(43, 43, 43);
     font-size: 20px;
-    font-family: "Inconsolata";
+    font-family: 'Inconsolata';
     text-align: left;
     display: block;
 }
@@ -79,7 +79,7 @@ div.main-info h{
     padding: 0px 0px 0px 35px;
     color: rgb(43, 43, 43);
     font-size: 20px;
-    font-family: "Fira Code";
+    font-family: 'Fira Code';
     font-weight: bold;
     display: block;
 }
@@ -87,7 +87,7 @@ div.main-info h{
 div.link a{
     margin-top: 30px;
     text-decoration: none;
-    font-family: "Fira Code";
+    font-family: 'Fira Code';
     font-weight: bold;
     font-size: 25px;
     color: #818181;
@@ -97,7 +97,7 @@ div.link a{
 a{
     color: rgb(43, 43, 43);
     font-size: 20px;
-    font-family: "Inconsolata";
+    font-family: 'Inconsolata';
     display: block;
     margin-left: 0px;
 }
@@ -106,7 +106,7 @@ p.lead{
     padding: 26px 8px 26px 35px;
     color: rgb(43, 43, 43);
     font-size: 20px;
-    font-family: "Fira Code";
+    font-family: 'Fira Code';
     font-weight: 500;
     display: block;
     margin-left: 0px;
@@ -115,7 +115,7 @@ p.lead{
 
 div.main-description{ 
     color: rgb(43, 43, 43); /*color: rgb(5, 70, 55) rgba(255, 255, 255, 0.200)*/
-    font-family: "Inconsolata";
+    font-family: 'Inconsolata';
     font-size: 18px;
     text-align: left;
 
