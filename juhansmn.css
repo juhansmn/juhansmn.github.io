@@ -29,7 +29,7 @@ div.sidenav a{
     display: block;
   }
 
-div.sidenav title{
+div.sidenav h{
     text-decoration: none;
     font-family: 'Fira Code';
     font-weight: bold;
@@ -45,7 +45,7 @@ div.sidenav.nome{
   }
   
   /* When you mouse over the navigation links, change their color */
-div.sidenav a:hover, div.sidenav title:hover{
+div.sidenav a:hover, div.sidenav h:hover{
     color: #f1f1f1;
   }
 
