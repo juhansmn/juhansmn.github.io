@@ -39,8 +39,8 @@ section.sidenav h{
     touch-action: manipulation;
 }
 
-section.sidenav.nome{
-    font-size: 40px;
+div.links{
+    margin-top: 30px;
   }
   
   /* When you mouse over the navigation links, change their color */
