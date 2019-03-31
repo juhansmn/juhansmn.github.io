@@ -75,6 +75,16 @@ div.main-post a{
     text-decoration: none;
 }
 
+div.main-post p{
+    padding-left: 32px;
+    width: 921px;
+}
+
+div.main-post ul{
+    padding-left: 48px;
+    width: 921px;
+}
+
 div.main-post h{
     padding: 20px 0px 0px 35px;
     color: #e6cf77;
