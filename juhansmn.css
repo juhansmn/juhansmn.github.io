@@ -44,7 +44,7 @@ div.links{
   }
   
   /* When you mouse over the navigation links, change their color */
-section.sidenav a:hover, section.sidenav h:hover{
+section.sidenav a:hover, section.sidenav h:hover, div.main-post h:hover{
     color: #eee2b5;
   }
 
@@ -69,6 +69,10 @@ div.main-post a, div.main-post li{
     font-family: 'Inconsolata';
     font-size: 18px;
     text-align: left;
+}
+
+div.main-post a{
+    text-decoration: none;
 }
 
 div.main-post h{
