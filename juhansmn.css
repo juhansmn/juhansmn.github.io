@@ -2,56 +2,62 @@ body{
     background-color: #181928; /*rgb(10, 10, 10) (105, 102, 105)*/
     margin: auto;
     margin-left: 300px;
-    margin-top: 69px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     width: 70%;
 }
 
 section.sidenav{
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 260px; /* Set the width of the sidebar */
+    width: 270px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #212337; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 80px;
+    background-color: #212337; /* Black */ 
+    overflow: hidden;
+    padding-top: 2%;
   }
-  
+
 section.sidenav a{
-    padding: 6px 8px 6px 35px;
+    padding: 2% 4% 1% 35px;
     text-decoration: none;
     font-family: 'Fira Code';
     font-weight: bold;
-    font-size: 200%;
+    font-size: 180%;
     color: #e6cf77;
     display: block;
-  }
+}
+
+section.sidenav year{
+    padding: 38% 4% 1% 35px;
+    text-decoration: none;
+    font-size: 100%;
+    font-family: 'Fira Code';
+    font-weight: bold;
+    color: #e6cf77;
+    display: inline-block;
+}
 
 section.sidenav h{
     text-decoration: none;
     font-family: 'Fira Code';
     font-weight: bold;
-    font-size: 45px;
+    font-size: 180%;
     color:#e6cf77;
     display: block;
     cursor: pointer;
     touch-action: manipulation;
 }
 
-div.links{
-    margin-top: 30px;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-section.sidenav a:hover, section.sidenav h:hover, div.main-post h:hover{
-    color: #eee2b5;
-  }
 
-section.sidenav h1{
-    padding: 80% 8px 6px 35px;
-    color: #e6cf77; 
-    font-size: 90%;
+/* When you mouse over the navigation links, change their color */
+section.sidenav a:hover, section.sidenav h:hover{
+    color: #eee2b5;
+}
+
+div.links{
+    margin-top: 15%;
 }
 
 div.main-post, div.main-post p{
@@ -63,25 +69,17 @@ div.main-post, div.main-post p{
     display: block;
 }
 
-div.main-post a, div.main-post li{
+div.main-post a{
     padding: 0px 0px 0px 0px;
     color: rgb(180, 180, 180); /*color: rgb(5, 70, 55) rgba(255, 255, 255, 0.200)*/
     font-family: 'Inconsolata';
     font-size: 18px;
     text-align: left;
-}
-
-div.main-post a{
     text-decoration: none;
 }
 
 div.main-post p{
-    padding-left: 32px;
-    width: 921px;
-}
-
-div.main-post ul{
-    padding-left: 48px;
+    padding-left: 40px;
     width: 921px;
 }
 
@@ -94,14 +92,12 @@ div.main-post h{
     display: block;
 }
 
-div.link a{
-    margin-top: 30px;
-    text-decoration: none;
+div.main-post project-link{
+    padding-left: 45px;
+    color: #e6cf77;
+    font-size: 10px;
     font-family: 'Fira Code';
     font-weight: bold;
-    font-size: 25px;
-    color: #000000;
-    display: block;
 }
 
 a{
@@ -115,7 +111,7 @@ a{
 p.lead{
     padding: 26px 8px 26px 35px;
     color: rgb(180, 180, 180);
-    font-size: 20px;
+    font-size: 130%;
     font-family: 'Fira Code';
     font-weight: 500;
     display: block;
