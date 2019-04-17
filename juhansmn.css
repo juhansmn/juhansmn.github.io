@@ -30,13 +30,14 @@ section.sidenav a{
 }
 
 section.sidenav year{
-    padding: 50% 4% 1% 35px;
     text-decoration: none;
     font-size: 100%;
     font-family: 'Fira Code';
     font-weight: bold;
     color: #e6cf77;
     display: inline-block;
+    padding-top: 45%;
+    padding-left: 35px;
 }
 
 section.sidenav h{
