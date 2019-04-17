@@ -30,7 +30,7 @@ section.sidenav a{
 }
 
 section.sidenav year{
-    padding: 38% 4% 1% 35px;
+    padding: 50% 4% 1% 35px;
     text-decoration: none;
     font-size: 100%;
     font-family: 'Fira Code';
@@ -57,7 +57,7 @@ section.sidenav a:hover, section.sidenav h:hover{
 }
 
 div.links{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 div.main-post, div.main-post p{
@@ -109,7 +109,7 @@ a{
 }
 
 p.lead{
-    padding: 26px 8px 26px 35px;
+    padding: 2% 2% 2% 35px;
     color: rgb(180, 180, 180);
     font-size: 130%;
     font-family: 'Fira Code';
